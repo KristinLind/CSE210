@@ -2,6 +2,31 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "C#: <project-name> Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+        },
+
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        
+
+        {
+            "name": "C#: <project-name> Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+        },
 
         {
             "name": "Sandbox Project",
@@ -196,7 +221,7 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
-        },
+        }
 
         {
             "name": "Week 06: Eternal Quest",
