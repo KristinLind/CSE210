@@ -1,38 +1,22 @@
 using System;
-using System.Collections.Generic;
 
-public class Resume
+class Program
 {
-
-    // Member variables
-    private string _name;
-    private List<Job> _jobs;
-
-    // constructor to initialize the Resume object
-    public Resume(string name)
+    static void Main()
     {
-        _name = name;
-        _jobs = new List<Job>();
+        // Create job objects
+        Job job1 = new Job("Software Enginerr", "Microsoft", 2019, 2011);
+        Job job2 = new Job("Manager", "Apple", 2022, 2023);
+
+        // Create Resume object
+        Resume myResume = new Resume("Allison Rose");
+
+        //Add jobs to the resume
+        myResume.AddJob(job1);
+        myResume.AddJob(job2);
+
+        // Display the resume
+        myResume.DisplayResume();
     }
 
-    // Metho to add job to the resume
-    public void AddJob(Job job)
-    {
-        _jobs.Add(job);
-    }
-
-    // Display method to show the resume details
-    public void DisplayResume()
-    {
-        Console.WriteLine($"Name: {_name}");
-        Console.WriteLine("Jobs:");
-        foreach (Job job in _jobs)
-        {
-            job.DisplayJobDetails();
-        }
-    }
-
-    // Getters and setters if needed 
-    public string Name { get => _name; set => _name = value; }
-    public List<Job> Jobs { get => _jobs; set => _jobs = value; }
 }
