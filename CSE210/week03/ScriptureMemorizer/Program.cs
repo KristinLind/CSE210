@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-class Program
+class program
 {
     static void Main(string[] args)
     {
