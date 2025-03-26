@@ -15,17 +15,19 @@ video1.AddComment(new Comment("John", "Machu Picchu mountain was a beautiful hik
 video1.AddComment(new Comment("Charles", "Bucket list was fulfilled today."));
 videos.Add(video1)
 
-Video video2 = new videos("Cooking with Fish", "Chef Tiffany" 300);
-video2.AddComment(new Comment("Amelia", "This is my new favorite recipe."))
-video2.AddComment(new Comment("Derek", "I can't believe how good this tastes."));
-video2.AddComment(new Comment("Ella", "This was so yummy!"));
-video2.AddComment(new Comment("Kim", "Can you do any mediteranian dishes?"));
+Video video2 = new videos("Top 10 fil of the week", "Jacob.corp" 300);
+video2.AddComment(new Comment("Blademaster", "Wow! @1:30 I hope she didn't get too hurt."))
+video2.AddComment(new Comment("Misty", "Double fail at no.3."));
+video2.AddComment(new Comment("Daniel", "Oh no! Did they take her to the hospital?"));
+video2.AddComment(new Comment("desertrider", "That is hilarious!"));
 videos.Add(video2);
 
-video3 video3 = new videos("Pilates with Crystal", Trainer Crystal" 520);
-video3.AddComment(new Comment("Gina", "I am feeling the burn"));
-video3.AddComment(new Comment("Jenny", "I love this workout."));
-video3.AddComment(new Comment("Diane", "My abs have gotten stronger. Thank you!"));
+video3 video3 = new videos("How To Make Toast", "Chef Karrine" 1500);
+video3.AddComment(new Comment("Blademaster", "How did I still burn this?!"));
+video3.AddComment(new Comment("Amelia", "This is my new favorite avocado toast."));
+video3.AddComment(new Comment("Lenz", "Wait...so you don't microwave it?"));
+video3.AddComment(new Comment("Toastmaster", "Cheers!"))
+Video3.AddComment(new Comment("Derek", "How did you get the fried egg to sit inside the toast and not burn?"))
 videos.Add(video3);
 
 // Now Display each video and its comments
@@ -43,8 +45,6 @@ foreach (Video video in videos)
     }
     Console.WriteLine(new string('-', 40));
 }
-}
-
 class Video
 {
     public string Title { get; }
