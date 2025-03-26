@@ -15,7 +15,7 @@ video1.AddComment(new Comment("John", "Machu Picchu mountain was a beautiful hik
 video1.AddComment(new Comment("Charles", "Bucket list was fulfilled today."));
 videos.Add(video1)
 
-Video video2 = new videos("Top 10 fil of the week", "Jacob.corp" 300);
+Video video2 = new videos("Top 10 fail of the week", "Jacob.corp" 300);
 video2.AddComment(new Comment("Blademaster", "Wow! @1:30 I hope she didn't get too hurt."))
 video2.AddComment(new Comment("Misty", "Double fail at no.3."));
 video2.AddComment(new Comment("Daniel", "Oh no! Did they take her to the hospital?"));
