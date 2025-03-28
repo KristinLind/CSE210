@@ -45,7 +45,7 @@ class Program
         return new Order(customer, products);
     }
 }
-
+// Product.cs //
 class Product
 {
     private string _name;
@@ -66,6 +66,7 @@ class Product
     public double GetTotalCost() => _price * _quantity;
 }
 
+// Address.cs //
 class Address
 {
     private string _street;
@@ -89,6 +90,7 @@ class Address
     }
 }
 
+// Customer.cs //
 class Customer
 {
     private string _name;
@@ -105,6 +107,7 @@ class Customer
     public bool LivesInUSA() => _address.IsInUSA();
 }
 
+// Order Class.cs //
 class Order
 {
     private List<Product> _products;
