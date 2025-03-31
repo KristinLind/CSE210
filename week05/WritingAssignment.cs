@@ -2,12 +2,12 @@ using System;
 
 namespace assignment_class
 {
-    public class WritingAssignment: Assignment
+    public string WritingAssignment: Assignment
     {
         private string _title;
         
         // Constructor
-        public string WritingAssignment(string studentName, string topic, string title)
+        public WritingAssignment(string studentName, string topic, string title)
             :base(studentName, topic)
         {
             _title = title;

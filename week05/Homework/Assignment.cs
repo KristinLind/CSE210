@@ -4,8 +4,8 @@ namespace assignment_class
 {
     public class Assignment
     {
-        private string _studentName: 
-        private string _topic:
+        private string _studentName; 
+        private string _topic;
 
         public Assignment(string studentName, string topic)
         {
@@ -16,7 +16,7 @@ namespace assignment_class
         {
             return _studentName;
         }
-                public string GetTopic()
+        public string GetTopic()
         {
             return _topic;
         }
