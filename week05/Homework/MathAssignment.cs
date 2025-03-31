@@ -18,9 +18,9 @@ namespace assignment_class
         {
             return _textbookSection;
         }
-        public string GetProblem()
+        public string GetProblems()
         {
-            return _problem;
+            return _problems;
         }
         // Setters
         public void SetTextbookSection(string section)
