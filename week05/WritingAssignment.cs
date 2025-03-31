@@ -2,7 +2,7 @@ using System;
 
 namespace assignment_class
 {
-    public string WritingAssignment: Assignment
+    public class WritingAssignment: Assignment
     {
         private string _title;
         
@@ -16,7 +16,7 @@ namespace assignment_class
         // Method to call writing information
         public string GetWritingInformation()
         {
-            return $"{title} by {GetStudentName()}";
+            return $"{_title} by {GetStudentName()}";
         }
 
     }
