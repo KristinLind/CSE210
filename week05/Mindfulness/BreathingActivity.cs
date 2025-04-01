@@ -27,15 +27,20 @@ namespace activity_class
 
                 Console.WriteLine();
             }
-            private void ShowCountdown(int seconds)
-            {
-                Console.Write($" {i}");
-                Thread.Sleep(1000);
-                Console.Write("\b\b");
-            }
-            Console.Write(" \b");
-            Console.WriteLine();
+
+            DisplayEndMessage();
         }
 
-    }
+            private void ShowCountdown(int seconds)
+            {
+                for (int i = seconds; i > 0; i--)
+                {
+                    Console.Write($" {i}");
+                    Thread.Sleep(1000);
+                    Console.Write("\b\b");
+                }
+                Console.Write(" \b");
+            }
+        }
 }
+
