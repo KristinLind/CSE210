@@ -22,6 +22,7 @@ namespace activity_class
 
                 switch (choice)
                 {
+                    // Stretch Goal: ReflectionActivity and ListingActivity includes random prompts without repeats until all have been shown.
                     case "1":
                     try
                     {
