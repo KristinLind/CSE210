@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("This is the Shapes project")
+        Console.WriteLine("This is the Shapes project");
 
         Square square = new Square("Red", 5);
         Rectangle rectangle = new Rectangle("Blue", 4, 6);
