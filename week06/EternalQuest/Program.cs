@@ -1,5 +1,7 @@
 // Eternal Quest Program - W06 CSE210
-// Extra features added: Leveling system and goal streak tracking
+// I created overloaded constructors to support loading goal state from files.
+// I have implemented unit testing using xUnit to verify logic for 
+// SimpleGoal, EternalGoal, and ChecklistGoal. 
 
 using System;
 using System.Collections.Generic;
