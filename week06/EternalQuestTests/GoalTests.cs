@@ -5,7 +5,7 @@ public class GoalTests
     [Fact]
     public void SimpleGoal_ShouldBeComplete_AfterRecordEvent()
     {
-        var goal = new SimpleGoal("Pray", "Pray every morning and night", 100);
+        var goal = new SimpleGoal("Exersice", "Exercise every day", 100);
         goal.RecordEvent();
         Assert.True(goal.IsComplete());
     }
@@ -32,7 +32,7 @@ public class GoalTests
     [Fact]
     public void ChecklistGoal_ShouldNotBeComplete_IfBelowTarget()
     {
-        var goal = new ChecklistGoal("Exercise", "Exercise every day", 50, 4, 300);
+        var goal = new ChecklistGoal("Pray", "Pray every day", 50, 4, 300);
         goal.RecordEvent();
         Assert.False(goal.IsComplete());
     }
